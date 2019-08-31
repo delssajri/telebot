@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Telebot</title>
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+                <div class="page-header__item">
+                    <input class="page-header__field" type="text" name="username" placeholder="Введите ссылку / username">
+                </div>
+                <div class="page-header__balance">Баланс</div>
+                <div class="page-header__value">61 544</div>
+                <div class="page-header__icon"></div>
+        </header>
+        <aside class="sidebar">
+            <div class="sidebar__wrapper">
+                <div class="sidebar-icon">Telebot.org</div>
+            </div>
+            <nav class="main-menu">
+                <ul class="main-menu__list">
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon1" href="#">Главная</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon2" href="#">Каналы</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon3" href="#">Посты</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon4" href="#">Боты</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon5" href="#">Отслеживание</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon6" href="#">Розыгрыши</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon7" href="#">Аудитория</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon8" href="#">Telegraph</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link main-menu__link--icon9" href="#">Spy Stories</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="page-main">
+            <div class="statistic">
+                <!-- <h1 class="statistic__title">Статистика</h1> -->
+                <div class="statistic__wrapper">
+                    <div class="channel">
+                        <div class="channel__header">
+                            <b class="channel__name">Каналы</b>
+                            <p class="channel__title">Просмотров на пост</p>
+                        </div>
+                            <div class="channel__type">
+                                <ul class="channel__list">
+                                    <li class="channel__item">
+                                        <a class="channel__link channel__link--active" href="#">Прирост</a>
+                                    </li>
+                                    <li class="channel__item">
+                                        <a class="channel__link" href="#">Просмотров на пост</a>
+                                    </li>
+                                    <li class="channel__item">
+                                        <a class="channel__link" href="#">По числу подписчиков</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="channel__day">
+                                <ul class="channel__list">
+                                    <li class="channel__item">
+                                        <a class="channel__link channel__link--active" href="#">Сегодня</a>
+                                    </li>
+                                    <li class="channel__item">
+                                        <a class="channel__link" href="#">Вчера</a>
+                                    </li class="channel__item">
+                                        <a class="channel__link" href="#">Неделя</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="channel__name">
+                                <table class="channel__table">
+                                    <tr>
+                                        <td class="name__channel">Название канала<span>131414</span></td>
+                                        <td class="value">43 545</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name__channel">Название канала<span>131414</span></td>
+                                        <td class="value">43 545</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name__channel">Название канала<span>131414</span></td>
+                                        <td class="value">43 545</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name__channel">Название канала<span>131414</span></td>
+                                        <td class="value">43 545</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        <a class="channel__showlink" href="#">Показать все</a>
+                    </div>
+                    <div class="public">
+                        <b class="public__name">Публикации</b>
+                        <div class="public__type">
+                            <ul class="public__list">
+                                <li class="public__item">
+                                    <a class="public__link" href="#">Новые каналы</a>
+                                    <a class="public__link" href="#">Рекламные записи</a>
+                                    <a class="public__link" href="#">По часам</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="public__graph"></div>
+                            <div class="public__left">
+                                <ul>
+                                    <li>Каналов в базе</li>
+                                    <li>Добавлено за сегодня</li>
+                                </ul>
+                            </div> 
+                            <div class="public__right">
+                                <ul>
+                                    <li>356 838</li>
+                                    <li>+56 838</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <!-- <div class="using-channel">
+                            <b class="using-channel__name">Избранные каналы</b>
+                            <div class="using-channel__wrapper">
+                                <table class="using-channel__table">
+                                    <tr>
+                                        <thead>Канал</thead>
+                                        <thead>Подписчики</thead>
+                                        <thead>Прирост</thead>
+                                        <thead>Просмотры на пост</thead>
+                                        <thead>ER</thead>
+                                    </tr>
+                                    <tr>
+                                        <td>Название канала</td>
+                                        <td>432 545</td>
+                                        <td>+ 432 545</td>
+                                        <td><span>32 545,</span><span>за 24 ч:</span><span>32 545</span></td>
+                                        <td><span>32%</span><span>за 24 ч:</span><span>32%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Название канала</td>
+                                        <td>432 545</td>
+                                        <td>+ 432 545</td>
+                                        <td><span>32 545,</span><span>за 24 ч:</span><span>32 545</span></td>
+                                        <td><span>32%</span><span>за 24 ч:</span><span>32%</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            
+
+        </main>
+    </div>
+</body>
+</html>

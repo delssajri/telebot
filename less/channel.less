@@ -1,0 +1,223 @@
+.channel {
+    box-sizing: border-box;
+    width: 710px;
+    margin-right: 40px;
+    padding: 0 40px;
+    padding-top: 30px;
+
+    border-radius: 34px;
+    background: #ffffff;
+}
+
+.channel__head {
+    // background: rgba(255, 255, 255, 0.9);
+    background-color: #e1e1e1; 
+}
+
+.channel__name {
+    display: block;
+
+    margin-top: 30px;
+    // margin-left: 40px;
+    // margin-bottom: 30px; 
+    text-align: left;
+
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.channel__title {
+    margin-top: 14px;
+    margin-bottom: 13px;
+
+    text-align: center;
+
+    font-family: "circe", sans-serif;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.channel__list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.channel__link {
+    text-decoration: none;
+
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #b3b3b3;
+}
+
+.channel__item {
+    padding-bottom: 22px;
+}
+
+.channel__day {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    font-size: 12px;
+    line-height: 15px;
+    color: #b3b3b3;
+}
+
+.channel__day .channel__item {
+    padding-bottom: 0;
+}
+
+.channel__left {
+    margin: 0;
+    padding: 0;
+}
+
+.channel__right {
+    margin: 0;
+    padding: 0;
+}
+
+.channel__day .channel__list {
+    width: 280px;
+}
+
+.channel__type {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.channel__link--active {
+    color: #000000;
+
+    font-weight: 600;
+}
+
+.channel__link--active {
+    color: #000000;
+
+    font-weight: 600;
+}
+
+.channel__name a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.channel__table {
+    width: 630px;
+}
+
+.channel__table tr {
+    display: block;
+    padding: 2px  0 19px;
+    margin-bottom: 20px;
+}
+
+.channel__table td {
+    padding-right: 308px;
+    padding-left: 60px;
+
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.channel__table .value {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.name__channel {
+    position: relative;
+}
+
+.name__channel::before {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+
+    width: 40px;
+    height: 40px;
+
+    content: "";
+
+    background: linear-gradient(to botton, #fefcea, #f1da36);
+    background: #AFD9FF url("../img/camera.png") no-repeat 50% 50%;;
+    border-radius: 50%;
+}
+
+.value {
+    position: relative;
+
+    vertical-align: top;
+}
+
+.channel__name .value::before {
+    position: absolute;
+    top: 2px;
+    left: -35px;
+
+    width: 16px;
+    height: 20px;
+
+    content: "";
+
+    background: url("../img/person.png") no-repeat 50% 50%;
+}
+
+.channel__name .value::after {
+    position: absolute;
+    top: -2px;
+    right: -55px;
+
+    width: 26px;
+    height: 26px;
+
+    content: "";
+
+    background: url("../img/linechart.png") no-repeat 50% 50%;
+}
+
+.channel__showlink {
+    display: block;
+    padding-bottom: 40px;
+
+    text-align: center;
+
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #b09eff;
+    text-decoration: none;
+}
+
+.name__channel span {
+    position: relative;
+    display: block;
+    margin-top: 6px;
+    padding-left: 14px;
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #b3b3b3;
+}
+
+.name__channel span::before {
+    position: absolute;
+    top: -7px;
+    left: -10px;
+
+    width: 26px;
+    height: 26px;
+
+    content: "";
+
+    background: url("../img/path.png") no-repeat 50% 50%;
+}
